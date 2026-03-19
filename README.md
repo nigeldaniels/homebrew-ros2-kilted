@@ -1,6 +1,6 @@
 # homebrew-ros2-kilted
 
-Homebrew tap for a curated macOS ROS 2 Kilted workspace, intentionally excluding the separate tutorial overlay workspace.
+Homebrew tap for a curated macOS ROS 2 Kilted workspace
 
 ## What This Is
 
@@ -17,16 +17,6 @@ It is meant to give developers a practical ROS 2 setup on macOS without asking t
 In other words, this repository is the installer/distribution layer for the curated ROS 2 workspace it packages.
 
 ## Install
-
-Once published, users can install the package with Homebrew:
-
-```bash
-brew install YOUR_GITHUB_OWNER/ros2-kilted/ros2-kilted-core
-```
-
-Because the repository name starts with `homebrew-`, Homebrew can use the shorter tap name `YOUR_GITHUB_OWNER/ros2-kilted`.
-
-Example:
 
 ```bash
 brew install nigeldaniels/ros2-kilted/ros2-kilted-core
