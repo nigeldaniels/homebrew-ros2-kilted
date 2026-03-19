@@ -12,7 +12,7 @@ It is meant to give developers a practical ROS 2 setup on macOS without asking t
 - run `vcs import`
 - create a Python build environment
 - figure out the right package subset to build
-- work around the macOS-specific packaging issues we already solved
+- work around macOS-specific packaging issues
 
 In other words, this repository is the installer/distribution layer for the curated ROS 2 workspace it packages.
 
@@ -42,12 +42,12 @@ Notably:
 
 - it does not include the separate tutorial overlay workspace
 - it does not aim to build every optional ROS 2 package
-- it is curated around the package set we validated on macOS
-- it is designed around the Fast DDS path we got working and tested
+- it is curated around a package set validated on macOS
+- it is designed around a tested Fast DDS-based setup
 
-## What We Already Did For Users
+## Packaging Approach
 
-The Homebrew package bakes in the setup and packaging work that would otherwise have to be done manually, including:
+The Homebrew package includes the setup and packaging work that would otherwise have to be done manually, including:
 
 - curating a known-good package subset for macOS
 - building the dependency closure from source
@@ -78,7 +78,7 @@ ros2-kilted-rqt
 ros2-kilted-bag --help
 ```
 
-We use these names instead of replacing plain `ros2` globally so this package can coexist more safely with other ROS installs.
+These names are used instead of replacing plain `ros2` globally so the package can coexist more safely with other ROS installs.
 
 ## Structure
 
