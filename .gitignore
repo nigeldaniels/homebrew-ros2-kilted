@@ -1,0 +1,35 @@
+# macOS
+.DS_Store
+
+# Editors
+.idea/
+.vscode/
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.venv/
+venv/
+
+# Local secrets / env
+.env
+.env.*
+*.env
+*.secret
+*.secrets
+
+# Packaging / build outputs
+build/
+*.egg-info/
+
+# Homebrew tap local release artifacts
+dist/
+
+# Local docs / notes
+how_to_brew.md
